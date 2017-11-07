@@ -12,7 +12,6 @@ $(".buttons").click(function() {
   } else {
     $("#screen").append(buttonText);
   }
-
 })
 
 
@@ -24,18 +23,23 @@ $("#clear").click(function() {
 
 
 // If equals button is clicked,
-// $("#equals").click(function() {
-//   let screenSplit = "#screen".split('/+|-|/|*/');
-//   console.log(screenSplit);
-//
-//
-//   // if (screenCalc ===  ) {
-//   //   eval()
-//   // } else {
-//   //   $("#screen").append('Error :)');
-//   // }
-//
-// })
+$("#equals").click(function() {
+
+  let screenSplit = $("#screen").item(0);
+  console.log(screenSplit);
+
+  // let screenSplit = "#screen".split('+-/*');
+  // console.log(screenSplit);
+
+
+
+  // if (screenCalc ===  ) {
+  //
+  // } else {
+  //   $("#screen").append('Error :)');
+  // }
+
+})
 
 
 
